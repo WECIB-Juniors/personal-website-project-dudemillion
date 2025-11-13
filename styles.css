@@ -1,0 +1,135 @@
+/* 
+Light shades: #F4F4F1
+Light accent: #8C8B9E
+Main brand: #7F73D4
+Dark accent: #74688D
+Dark shades: #283461
+*/
+body {
+    box-sizing: border-box;
+    background-color: #283461;
+    margin: 0;
+}
+
+header {
+    background-color: #1b223b;
+    border-radius: 5px;
+}
+
+.name {
+    color: #F4F4F1;
+    font-family: monospace;
+    background-color: #1b223b;
+    font-size: 50px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.pfp {
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 10%;
+    margin: 10px;
+    width: 115px;
+}
+
+.Name-Socials {
+    padding: 10px
+}
+
+.Name-Socials h3 {
+    color: #F4F4F1;
+    font-size: 30px;
+    font-family: monospace;
+}
+
+.contacts {
+    color: #F4F4F1;
+    font-size: 15px;
+    font-family: monospace;
+}
+
+.Bio {
+    color: #F4F4F1;
+    background-color: #1b223b;
+    font-family: monospace;
+    font-size: 16px;
+    padding: 20px;
+}
+
+.biocards {
+    display: flex;
+    gap: 16px;
+}
+
+.biocards p {
+    background-color: #F4F4F1;
+    color: #283461;
+    padding: 14px 16px;
+    margin: 0;
+    border-radius: 6px;
+    flex: 1;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.35);
+    line-height: 1.4;
+}
+.Skills h2 {
+    font-size: 30px;
+    font-family: monospace;
+    color: #F4F4F1;
+    text-align: center;
+}
+.Skills {
+    color: #F4F4F1;
+    background-color: #1b223b;
+    padding: 20px;
+    margin-top: 40px;
+    font-family: monospace;
+}
+.skillcard h3 {
+    margin-top: 0;
+    color: #283461;
+}
+.skillcard ol {
+    padding-left: 20px;
+    margin: 0;
+    font-size: 18px;
+}
+.skilllists {
+    display: flex;
+    gap: 20px;
+}
+.skillcard {
+    background-color: #F4F4F1;
+    color: #283461;
+    padding: 16px 20px;
+    border-radius: 6px;
+    flex: 1;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.35);
+}
+.Projects {
+    color: #F4F4F1;
+    background-color: #1b223b;
+    padding: 20px;
+    margin-top: 40px;
+    font-family: monospace;
+}
+
+.projectcards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.projectcard {
+    background-color: #F4F4F1;
+    color: #283461;
+    padding: 16px 20px;
+    border-radius: 6px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.35);
+    font-size: 15px;
+}
+
+.projectcard h3 {
+    margin-top: 0;
+    font-size: 20px;
+}
