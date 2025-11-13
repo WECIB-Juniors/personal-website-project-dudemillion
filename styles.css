@@ -11,6 +11,25 @@ body {
     margin: 0;
 }
 
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #161b2d;
+    display: flex;
+}
+.navbar li a {
+  display: block;
+  color: white;
+  font-family: monospace;
+  font-size: 15px;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navbar li a:hover {
+  background-color: #7F73D4;
+}
+
 header {
     background-color: #1b223b;
     border-radius: 5px;
