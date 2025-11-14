@@ -68,18 +68,32 @@ header {
     font-family: monospace;
 }
 
-.Bio {
-    color: #F4F4F1;
-    background-color: #1b223b;
+.Bio, .Skills, .Projects {
     font-family: monospace;
-    font-size: 16px;
     padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.35);
+}
+
+.Bio {
+    flex: 2;
+    background-color: #1b223b;
+    color: #F4F4F1; 
+    font-size: 16px;
+}
+
+.Skills, .Projects {
+    flex: 1;
+    background-color: #1b223b;
+    color: #F4F4F1;
 }
 
 .biocards {
     display: flex;
-    gap: 16px;
+    flex-direction: column;
+    gap: 20px;
 }
+
 
 .biocards p {
     background-color: #F4F4F1;
@@ -97,12 +111,11 @@ header {
     color: #F4F4F1;
     text-align: center;
 }
-.Skills {
-    color: #F4F4F1;
-    background-color: #1b223b;
-    padding: 20px;
-    margin-top: 40px;
+.Projects h2 {
+    font-size: 30px;
     font-family: monospace;
+    color: #F4F4F1;
+    text-align: center;
 }
 
 .skillcard h3 {
@@ -126,13 +139,6 @@ header {
     flex: 1;
     box-shadow: 0 4px 10px rgba(0,0,0,0.35);
 }
-.Projects {
-    color: #F4F4F1;
-    background-color: #1b223b;
-    padding: 20px;
-    margin-top: 40px;
-    font-family: monospace;
-}
 
 .projectcards {
     display: flex;
@@ -154,9 +160,10 @@ header {
     font-size: 20px;
 }
 .layout {
-    max-width: 1200px;
+    width: 98%;
+    max-width: 1600px;  
     margin: 40px auto;
     display: flex;
-    gap: 20px;
+    gap: 24px;
 }
 
