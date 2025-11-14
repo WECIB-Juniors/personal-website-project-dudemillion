@@ -79,7 +79,8 @@ header {
     flex: 2;
     background-color: #1b223b;
     color: #F4F4F1; 
-    font-size: 16px;
+    text-align: center;
+    font-size: 25px;
 }
 
 .Skills, .Projects {
@@ -102,6 +103,7 @@ header {
     margin: 0;
     border-radius: 6px;
     flex: 1;
+    font-size: 16px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.35);
     line-height: 1.4;
 }
@@ -173,4 +175,13 @@ footer {
     padding: 16px;
     font-family: monospace;
     margin-top: 40px;
+}
+@media screen and (max-width: 900px) {
+    .layout {
+        flex-direction: column;
+    }
+
+    .Bio, .Skills, .Projects {
+        width: 100%;
+    }
 }
