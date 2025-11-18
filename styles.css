@@ -131,6 +131,7 @@ header {
 }
 .skilllists {
     display: flex;
+    flex-direction: column;
     gap: 20px;
 }
 .skillcard {
@@ -138,7 +139,6 @@ header {
     color: #283461;
     padding: 16px 20px;
     border-radius: 6px;
-    flex: 1;
     box-shadow: 0 4px 10px rgba(0,0,0,0.35);
 }
 
